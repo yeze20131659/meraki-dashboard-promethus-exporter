@@ -60,7 +60,10 @@ scrape_configs:
 Please check **/systemd** folder for systemd services and timers configuration files, if your system uses it.
 
 ### Docker
+You can run like this
+docker build -t meraki-dashboard-prometheus-exporter:latest
+`docker run -p 9822:9822 -e MERAKI_API_KEY=<api key> meraki-dashboard-prometheus-exporter:latest`
 
-There is a Docker image available at `ghcr.io/TheHolm/meraki-dashboard-prometheus-exporter`. You can run the exporter with a command like:
-
-`docker run -p 9822:9822 -e MERAKI_API_KEY=<api key> ghcr.io/TheHolm/meraki-dashboard-prometheus-exporter`
+Updated:
+Update dockerfile for running on amd64 CPU devices
+resolving prometheus pass "/?target" as "/%3Ftarget"

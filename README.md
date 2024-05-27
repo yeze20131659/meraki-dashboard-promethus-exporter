@@ -65,6 +65,6 @@ docker build -t meraki-dashboard-prometheus-exporter:latest
 `docker run -p 9822:9822 -e MERAKI_API_KEY=<api key> meraki-dashboard-prometheus-exporter:latest`
 
 ### Updated:
-Update dockerfile for running on amd64 CPU devices
+Updated dockerfile for running on amd64 CPU devices
 
-Resolving prometheus pass "/?target" as "/%3Ftarget"
+Resolved prometheus pass "/?target" as "/%3Ftarget"

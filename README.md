@@ -66,4 +66,5 @@ docker build -t meraki-dashboard-prometheus-exporter:latest
 
 ### Updated:
 Update dockerfile for running on amd64 CPU devices
-resolving prometheus pass "/?target" as "/%3Ftarget"
+
+Resolving prometheus pass "/?target" as "/%3Ftarget"

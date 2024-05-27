@@ -110,7 +110,7 @@ class MyHandler(http.server.BaseHTTPRequestHandler):
 
     def do_GET(self):
 
-        if "/?target=" not in self.path and "/organizations" not in self.path:
+        if "/?target=" not in self.path and "/organizations" not in self.path and "/%3Ftarget=" not in self.path:
             self._set_headers_404()
             return()
 
